@@ -14,11 +14,13 @@
     <div class="w3-container w3-center">
         <div class="w3-bar w3-padding-large w3-padding-24">
             <button class="w3-btn w3-hover-yellow w3-round-large" onclick="location.href='/'">Main Page</button>
-            <button class="w3-btn w3-hover-light-blue w3-round-large" onclick="location.href='/books'">List of books</button>
-            <button class="w3-btn w3-hover-light-blue w3-round-large" onclick="location.href='/books/add'">Add a book</button>
+            <button class="w3-btn w3-hover-light-blue w3-round-large" onclick="location.href='/books'">List of books
+            </button>
+            <button class="w3-btn w3-hover-light-blue w3-round-large" onclick="location.href='/books/add'">Add a book
+            </button>
         </div>
     </div>
-        <#nested>
+    <#nested>
     </body>
     </html>
 </#macro>

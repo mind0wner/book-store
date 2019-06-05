@@ -2,7 +2,6 @@
 
 <@c.page>
     <h2>Edit a book</h2>
-
     <form action="/books" method="post">
         <div><label>Title: <input type="text" name="title" value="${book.getTitle()}"></label></div>
         <br/>

@@ -4,7 +4,7 @@
     <div align="center">
         <h2>Add new book</h2>
     </div>
-    ${msg?if_exists}
+    <div><p><b>${msg?if_exists}</b></p></div>
     <form class="a" method="post" action="/books/add">
         <div><label> Title: <input type="text" name="title"/> </label></div>
         <div><label> Author: <input type="text" name="author"/> </label></div>
